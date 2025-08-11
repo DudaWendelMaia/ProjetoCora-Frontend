@@ -1,0 +1,49 @@
+# --- dependências ---
+node_modules/
+
+# --- build / caches ---
+dist/
+.vite/
+*.tsbuildinfo         # cache do TypeScript
+.eslintcache
+
+# --- variáveis de ambiente (NÃO versionar segredos) ---
+.env
+.env.*.local
+*.env
+!.env.example          
+
+# --- logs e artefatos diversos ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.tgz
+
+# --- SO / editores ---
+.DS_Store              # macOS
+Thumbs.db              # Windows
+.idea/                 # JetBrains
+.vscode/               # settings do VS Code
+
+# --- testes (Cypress) ---
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+cypress/results/
+cypress/.cache/
+
+# --- coverage (vitest/c8/nyc) ---
+coverage/
+.nyc_output/
+
+# --- temporários ---
+*.swp
+*.swo
+*.tmp
+*.bak
