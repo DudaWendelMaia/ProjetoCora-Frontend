@@ -1,6 +1,6 @@
 # Projeto Cora - Frontend
 
-Um projeto React com TypeScript e Vite para a interface do sistema de gerenciamento de usuários, integrado ao backend NestJS.
+Um projeto React com TypeScript e Vite para o desenvolvimento do projeto Cora, integrado ao backend NestJS.
 
 ## 📋 Pré-requisitos
 
